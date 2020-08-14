@@ -1,8 +1,6 @@
 <ul class="function-list">
-    {% for function_pair in site.data.evids-categories %}
-    {% assign function_id = function_pair[0] %}
-    {% assign function = function_pair[1] %}
-    {% unless include.bin.evids-categories[function_id] %}{% continue %}{% endunless %}
-    <li><a href="{{ include.bin.url }}#{{ function_id }}">{{ function.label }}</a></li>
+    {% for category in include.bin.evids-categories %}
+    {% unless site.data.evids-categories[category] %}{% continue %}{% endunless %}
+    <li><a href="{{ include.bin.url }}#{{ category }}">{{ site.data.evids-categories[category].label }}</a></li>
     {% endfor %}
 </ul>

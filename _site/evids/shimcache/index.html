@@ -5,7 +5,7 @@
         <title>
             
             
-            open/save mru
+            shimcache
             
             |
             
@@ -36,7 +36,7 @@
     
     <a href="/">..</a> /
     
-    Open/Save MRU
+    Shimcache
     <div class="github-buttons">
         <a class="github-button" href="https://github.com/dfirtips/evids.dfir.tips" data-icon="octicon-star" data-show-count="true" aria-label="Star dfirtips/evids.dfir.tips on GitHub">Star</a>
     </div>
@@ -46,7 +46,7 @@
 <ul class="function-list">
     
     
-    <li><a href="/evids/open_save_mru/#filedownload">File Download</a></li>
+    <li><a href="/evids/shimcache/#programexecution">Program Execution</a></li>
     
 </ul>
 
@@ -58,17 +58,20 @@
 <h4>Description</h4>
 <ul class="examples">
     <li>
-        <p>In the simplest terms, this key tracks files that have been opened or
-saved within a Windows shell dialog box. This happens to be a big data
-set, not only including web browsers like Internet Explorer and Firefox,
-but also a majority of commonly used applications.</p>
+        <ul>
+  <li>Windows Application Compatibility Database is used by
+Windows to identify possible application compatibility
+challenges with executables.</li>
+  <li>Tracks the executables file name, file size, last modified time,
+and in Windows XP the last update time</li>
+</ul>
 
         <h4>Location</h4>
         <pre><code>XP:
-NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU
+SYSTEM\CurrentControlSet\Control\SessionManager\AppCompatibility
 
 Win7/8/10:
-NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU
+SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache
 </code></pre>
     </li>
 </ul>
@@ -76,17 +79,24 @@ NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveP
 <h4>Interpretation</h4>
 <ul class="examples">
     
-    
-    <li>
-        <p><strong>The “*” key</strong> – This subkey tracks the most recent files of any extension input in an OpenSave dialog</p>
+    <p>Any executable run on the Windows system could be found
+in this key. You can use this key to identify systems that
+specific malware was executed on. In addition, based on the
+interpretation of the time-based data you might be able to
+determine the last time of execution or activity on the system.</p>
+<ul>
+  <li>Windows XP contains at most 96 entries
+    <ul>
+      <li>LastUpdateTime is updated when the files are executed</li>
+    </ul>
+  </li>
+  <li>Windows 7 contains at most 1,024 entries
+    <ul>
+      <li>LastUpdateTime does not exist on Win7 systems</li>
+    </ul>
+  </li>
+</ul>
 
-    </li>
-    
-    <li>
-        <p><strong>.??? (Three letter extension)</strong> – This subkey stores file info from the OpenSave dialog by specific extension</p>
-
-    </li>
-    
     
 </ul>
 

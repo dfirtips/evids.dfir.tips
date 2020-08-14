@@ -5,7 +5,7 @@
         <title>
             
             
-            open/save mru
+            windows 10 timeline
             
             |
             
@@ -36,7 +36,7 @@
     
     <a href="/">..</a> /
     
-    Open/Save MRU
+    Windows 10 Timeline
     <div class="github-buttons">
         <a class="github-button" href="https://github.com/dfirtips/evids.dfir.tips" data-icon="octicon-star" data-show-count="true" aria-label="Star dfirtips/evids.dfir.tips on GitHub">Star</a>
     </div>
@@ -46,7 +46,7 @@
 <ul class="function-list">
     
     
-    <li><a href="/evids/open_save_mru/#filedownload">File Download</a></li>
+    <li><a href="/evids/windows_10_timeline/#programexecution">Program Execution</a></li>
     
 </ul>
 
@@ -58,17 +58,12 @@
 <h4>Description</h4>
 <ul class="examples">
     <li>
-        <p>In the simplest terms, this key tracks files that have been opened or
-saved within a Windows shell dialog box. This happens to be a big data
-set, not only including web browsers like Internet Explorer and Firefox,
-but also a majority of commonly used applications.</p>
+        <p>Win10 records recently used applications and files in a
+“timeline” accessible via the “WIN+TAB” key. The data is
+recorded in a SQLite database.</p>
 
         <h4>Location</h4>
-        <pre><code>XP:
-NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU
-
-Win7/8/10:
-NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU
+        <pre><code>C:\Users\&lt;profile&gt;\AppData\Local\ConnectedDevicesPlatform\L.&lt;profile&gt;\ActivitiesCache.db
 </code></pre>
     </li>
 </ul>
@@ -76,17 +71,11 @@ NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveP
 <h4>Interpretation</h4>
 <ul class="examples">
     
-    
-    <li>
-        <p><strong>The “*” key</strong> – This subkey tracks the most recent files of any extension input in an OpenSave dialog</p>
+    <ul>
+  <li>Application execution</li>
+  <li>Focus count per application</li>
+</ul>
 
-    </li>
-    
-    <li>
-        <p><strong>.??? (Three letter extension)</strong> – This subkey stores file info from the OpenSave dialog by specific extension</p>
-
-    </li>
-    
     
 </ul>
 

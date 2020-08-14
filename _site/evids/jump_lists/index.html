@@ -5,7 +5,7 @@
         <title>
             
             
-            open/save mru
+            jump lists
             
             |
             
@@ -36,7 +36,7 @@
     
     <a href="/">..</a> /
     
-    Open/Save MRU
+    Jump Lists
     <div class="github-buttons">
         <a class="github-button" href="https://github.com/dfirtips/evids.dfir.tips" data-icon="octicon-star" data-show-count="true" aria-label="Star dfirtips/evids.dfir.tips on GitHub">Star</a>
     </div>
@@ -46,7 +46,10 @@
 <ul class="function-list">
     
     
-    <li><a href="/evids/open_save_mru/#filedownload">File Download</a></li>
+    <li><a href="/evids/jump_lists/#programexecution">Program Execution</a></li>
+    
+    
+    <li><a href="/evids/jump_lists/#fileopening">File/Folder Opening</a></li>
     
 </ul>
 
@@ -58,17 +61,20 @@
 <h4>Description</h4>
 <ul class="examples">
     <li>
-        <p>In the simplest terms, this key tracks files that have been opened or
-saved within a Windows shell dialog box. This happens to be a big data
-set, not only including web browsers like Internet Explorer and Firefox,
-but also a majority of commonly used applications.</p>
+        <ul>
+  <li>The Windows 7 task bar (Jump List) is engineered to allow
+  users to “jump” or access items they have frequently or
+  recently used quickly and easily. This functionality cannot
+  only include recent media files; it must also include recent
+  tasks.</li>
+  <li>The data stored in the AutomaticDestinations folder will
+  each have a unique file prepended with the AppID of the
+  associated application.</li>
+</ul>
 
         <h4>Location</h4>
-        <pre><code>XP:
-NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU
-
-Win7/8/10:
-NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU
+        <pre><code>Win7/8/10:
+C:\%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
 </code></pre>
     </li>
 </ul>
@@ -76,17 +82,21 @@ NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveP
 <h4>Interpretation</h4>
 <ul class="examples">
     
-    
-    <li>
-        <p><strong>The “*” key</strong> – This subkey tracks the most recent files of any extension input in an OpenSave dialog</p>
+    <ul>
+  <li>First time of execution of application.
+    <ul>
+      <li>Creation Time = First time item added to the AppID file.</li>
+    </ul>
+  </li>
+  <li>Last time of execution of application w/file open.
+    <ul>
+      <li>Modification Time = Last time item added to the AppID file.</li>
+    </ul>
+  </li>
+  <li>List of Jump List IDs -&gt;
+  <a href="http://www.forensicswiki.org/wiki/List_of_Jump_List_IDs">LINK</a></li>
+</ul>
 
-    </li>
-    
-    <li>
-        <p><strong>.??? (Three letter extension)</strong> – This subkey stores file info from the OpenSave dialog by specific extension</p>
-
-    </li>
-    
     
 </ul>
 

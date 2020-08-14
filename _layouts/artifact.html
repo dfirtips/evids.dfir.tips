@@ -8,39 +8,27 @@ layout: common
 
 {% include category_list.html bin=page %}
 
-{{ page.description | markdownify }}
-{% for function_pair in site.data.evids-categories %}
 
-{% assign function_id = function_pair[0] %}
-{% assign function = function_pair[1] %}
-{% assign examples = page.evids-categories[function_id] %}
-{% unless examples %}{% continue %}{% endunless %}
-
-<h2 id="{{ function_id }}" class="function-name">{{- function.label -}}</h2>
+<!-- <h2 id="{{ function_id }}" class="function-name">{{- function.label -}}</h2> -->
 <!-- {{ function.description | markdownify }} -->
-<h4>Key description</h4>
+<h4>Description</h4>
 <ul class="examples">
-    {% for example in examples %}
     <li>
-        {{ example.description | markdownify }}
+        {{ page.description | markdownify }}
         <h4>Location</h4>
-        <pre><code>{% if example.location %}{{ example.location | escape }}{% else %}None{% endif %}</code></pre>
+        <pre><code>{% if page.location %}{{ page.location | escape }}{% else %}None{% endif %}</code></pre>
     </li>
-    {% endfor %}
 </ul>
 
 <h4>Interpretation</h4>
 <ul class="examples">
-    {% for example in examples %}
-    {% if example.interpretation[0] %}
-    {% for interpr in example.interpretation %}
+    {% if page.interpretation[0] %}
+    {% for interpr in page.interpretation %}
     <li>
         {{ interpr | markdownify }}
     </li>
     {% endfor %}
     {% else %}
-    {{ example.interpretation | markdownify }}
+    {{ page.interpretation | markdownify }}
     {% endif %}
-    {% endfor %}
 </ul>
-{% endfor %}

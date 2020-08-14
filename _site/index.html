@@ -17,7 +17,7 @@
 <div style="top: 0; left: 0; right: 0; height: 60px; position: relative; ">
     <ul class="function-list">
         <li>
-            <a href="https://evids.dfir.tips/" class="dfirtipsproject" style="font-size: 20px; ">Evids</a>
+            <a href="https://evids.dfir.tips/" class="dfirtipsproject" style="font-size: 20px; background-color: #d6eaf8;">Evids</a>
         </li>
         <li>
             <a href="https://winprocs.dfir.tips/" class="dfirtipsproject" style="font-size: 20px; ">WinProcs</a>
@@ -77,7 +77,7 @@
         
     </ul>
 
-    <input id="bin-search" type="text" placeholder="Search among 8 binaries: &lt;binary&gt; +&lt;function&gt; ..." />
+    <input id="bin-search" type="text" placeholder="Search among 17 artifacts: &lt;artifact&gt; +&lt;category&gt; ..." />
 </div>
 
 <div id="bin-table-wrapper">
@@ -95,30 +95,29 @@
                 <td><ul class="function-list">
     
     
-    
-    
     <li><a href="/evids/ads_zone_identifier/#filedownload">File Download</a></li>
     
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/amcache_hve/" class="bin-name">Amcache.hve</a></td>
+                <td><ul class="function-list">
     
     
+    <li><a href="/evids/amcache_hve/#programexecution">Program Execution</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/bam_dam/" class="bin-name">BAM/DAM</a></td>
+                <td><ul class="function-list">
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <li><a href="/evids/bam_dam/#programexecution">Program Execution</a></li>
     
 </ul>
 </td>
@@ -129,30 +128,7 @@
                 <td><ul class="function-list">
     
     
-    
-    
     <li><a href="/evids/browser_artifacts/#filedownload">File Download</a></li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 </ul>
 </td>
@@ -163,30 +139,7 @@
                 <td><ul class="function-list">
     
     
-    
-    
     <li><a href="/evids/browser_download_manager/#filedownload">File Download</a></li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 </ul>
 </td>
@@ -197,30 +150,38 @@
                 <td><ul class="function-list">
     
     
-    
-    
     <li><a href="/evids/email_attachments/#filedownload">File Download</a></li>
     
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/jump_lists/" class="bin-name">Jump Lists</a></td>
+                <td><ul class="function-list">
     
     
+    <li><a href="/evids/jump_lists/#programexecution">Program Execution</a></li>
     
     
+    <li><a href="/evids/jump_lists/#fileopening">File/Folder Opening</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/last_visited_mru/" class="bin-name">Last-Visited MRU</a></td>
+                <td><ul class="function-list">
     
     
+    <li><a href="/evids/last_visited_mru/#programexecution">Program Execution</a></li>
     
     
+    <li><a href="/evids/last_visited_mru/#fileknowledge">Deleted File or File Knowledge</a></li>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <li><a href="/evids/last_visited_mru/#fileopening">File/Folder Opening</a></li>
     
 </ul>
 </td>
@@ -231,30 +192,43 @@
                 <td><ul class="function-list">
     
     
-    
-    
     <li><a href="/evids/open_save_mru/#filedownload">File Download</a></li>
     
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/prefetch/" class="bin-name">Prefetch</a></td>
+                <td><ul class="function-list">
     
     
+    <li><a href="/evids/prefetch/#programexecution">Program Execution</a></li>
     
     
+    <li><a href="/evids/prefetch/#fileopening">File/Folder Opening</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/recentapps/" class="bin-name">RecentApps</a></td>
+                <td><ul class="function-list">
     
     
+    <li><a href="/evids/recentapps/#programexecution">Program Execution</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/shimcache/" class="bin-name">Shimcache</a></td>
+                <td><ul class="function-list">
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <li><a href="/evids/shimcache/#programexecution">Program Execution</a></li>
     
 </ul>
 </td>
@@ -265,30 +239,21 @@
                 <td><ul class="function-list">
     
     
-    
-    
     <li><a href="/evids/skype_history/#filedownload">File Download</a></li>
     
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/srum/" class="bin-name">System Resource Usage Monitor (SRUM)</a></td>
+                <td><ul class="function-list">
     
     
+    <li><a href="/evids/srum/#programexecution">Program Execution</a></li>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <li><a href="/evids/srum/#networkactivity">Network Activity / Physical Location</a></li>
     
 </ul>
 </td>
@@ -299,28 +264,7 @@
                 <td><ul class="function-list">
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <li><a href="/evids/template/#programexecution">Program Execution</a></li>
     
 </ul>
 </td>
@@ -331,30 +275,18 @@
                 <td><ul class="function-list">
     
     
-    
-    
-    
-    
-    
     <li><a href="/evids/userassist/#programexecution">Program Execution</a></li>
     
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/windows_10_timeline/" class="bin-name">Windows 10 Timeline</a></td>
+                <td><ul class="function-list">
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <li><a href="/evids/windows_10_timeline/#programexecution">Program Execution</a></li>
     
 </ul>
 </td>

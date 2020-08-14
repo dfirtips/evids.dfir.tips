@@ -5,7 +5,7 @@
         <title>
             
             
-            open/save mru
+            prefetch
             
             |
             
@@ -36,7 +36,7 @@
     
     <a href="/">..</a> /
     
-    Open/Save MRU
+    Prefetch
     <div class="github-buttons">
         <a class="github-button" href="https://github.com/dfirtips/evids.dfir.tips" data-icon="octicon-star" data-show-count="true" aria-label="Star dfirtips/evids.dfir.tips on GitHub">Star</a>
     </div>
@@ -46,7 +46,10 @@
 <ul class="function-list">
     
     
-    <li><a href="/evids/open_save_mru/#filedownload">File Download</a></li>
+    <li><a href="/evids/prefetch/#programexecution">Program Execution</a></li>
+    
+    
+    <li><a href="/evids/prefetch/#fileopening">File/Folder Opening</a></li>
     
 </ul>
 
@@ -58,17 +61,20 @@
 <h4>Description</h4>
 <ul class="examples">
     <li>
-        <p>In the simplest terms, this key tracks files that have been opened or
-saved within a Windows shell dialog box. This happens to be a big data
-set, not only including web browsers like Internet Explorer and Firefox,
-but also a majority of commonly used applications.</p>
+        <ul>
+  <li>Increases performance of a system by pre-loading code
+  pages of commonly used applications. Cache Manager
+  monitors all files and directories referenced for each
+  application or process and maps them into a .pf file. Utilized
+  to know an application was executed on a system.</li>
+  <li>Limited to 128 files on XP and Win7</li>
+  <li>Limited to 1024 files on Win8</li>
+  <li>(exename)-(hash).pf</li>
+</ul>
 
         <h4>Location</h4>
-        <pre><code>XP:
-NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU
-
-Win7/8/10:
-NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU
+        <pre><code>WinXP/7/8/10:
+C:\Windows\Prefetch
 </code></pre>
     </li>
 </ul>
@@ -76,17 +82,23 @@ NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveP
 <h4>Interpretation</h4>
 <ul class="examples">
     
-    
-    <li>
-        <p><strong>The “*” key</strong> – This subkey tracks the most recent files of any extension input in an OpenSave dialog</p>
+    <ul>
+  <li>Each .pf will include last time of execution, number of times
+  run, and device and file handles used by the program</li>
+  <li>Date/Time file by that name and path was first executed
+    <ul>
+      <li>Creation Date of .pf file (-10 seconds)</li>
+    </ul>
+  </li>
+  <li>Date/Time file by that name and path was last executed
+    <ul>
+      <li>Embedded last execution time of .pf file</li>
+      <li>Last modification date of .pf file (-10 seconds)</li>
+      <li>Win8-10 will contain last 8 times of execution</li>
+    </ul>
+  </li>
+</ul>
 
-    </li>
-    
-    <li>
-        <p><strong>.??? (Three letter extension)</strong> – This subkey stores file info from the OpenSave dialog by specific extension</p>
-
-    </li>
-    
     
 </ul>
 
