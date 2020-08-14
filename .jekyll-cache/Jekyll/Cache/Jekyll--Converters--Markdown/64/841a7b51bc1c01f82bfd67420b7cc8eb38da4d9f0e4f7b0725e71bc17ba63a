@@ -1,0 +1,8 @@
+I"<ul>
+  <li>Windows Application Compatibility Database is used by
+Windows to identify possible application compatibility
+challenges with executables.</li>
+  <li>Tracks the executables file name, file size, last modified time,
+and in Windows XP the last update time</li>
+</ul>
+:ET

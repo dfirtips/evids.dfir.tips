@@ -1,0 +1,20 @@
+I"H<ul>
+  <li>
+    <p>These are created when a user switches a folder to
+  thumbnail mode or views pictures via a slide show. As it
+  were, our thumbs are now stored in separate database files.
+  Win7+ has 4 sizes for thumbnails and the files in the cache
+  folder reflect this:</p>
+
+    <ul>
+      <li>32 -&gt; small - 96 -&gt; medium</li>
+      <li>256 -&gt; large - 1024 -&gt; extra large</li>
+    </ul>
+  </li>
+  <li>
+    <p>The thumbcache will store the thumbnail copy of the picture
+  based on the thumbnail size in the content of the equivalent
+  database file.</p>
+  </li>
+</ul>
+:ET

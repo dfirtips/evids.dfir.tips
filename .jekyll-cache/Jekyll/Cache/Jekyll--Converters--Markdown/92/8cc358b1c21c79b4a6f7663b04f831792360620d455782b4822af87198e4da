@@ -1,0 +1,6 @@
+I"Ì<ul>
+  <li>Shows historical record of wireless network connections</li>
+  <li>Contains SSID and BSSID (MAC address), which can be used to
+  geolocate wireless access point *(no BSSID on Win8+)</li>
+</ul>
+:ET

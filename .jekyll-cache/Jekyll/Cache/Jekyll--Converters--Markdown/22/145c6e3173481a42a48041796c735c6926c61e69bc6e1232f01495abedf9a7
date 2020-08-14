@@ -1,0 +1,15 @@
+I"¯<ul>
+  <li>First time of execution of application.
+    <ul>
+      <li>Creation Time = First time item added to the AppID file.</li>
+    </ul>
+  </li>
+  <li>Last time of execution of application w/file open.
+    <ul>
+      <li>Modification Time = Last time item added to the AppID file.</li>
+    </ul>
+  </li>
+  <li>List of Jump List IDs -&gt;
+  <a href="http://www.forensicswiki.org/wiki/List_of_Jump_List_IDs">LINK</a></li>
+</ul>
+:ET

@@ -1,0 +1,11 @@
+I"±<ul>
+  <li>Identifying intranets and networks that a computer has
+connected to is incredibly important</li>
+  <li>Not only can you determine the intranet name, you can
+determine the last time the network was connected to it based
+on the last write time of the key</li>
+  <li>This will also list any networks that have been connected to via
+a VPN</li>
+  <li>MAC Address of SSID for Gateway could be physically triangulated</li>
+</ul>
+:ET

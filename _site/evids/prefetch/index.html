@@ -69,7 +69,7 @@
   to know an application was executed on a system.</li>
   <li>Limited to 128 files on XP and Win7</li>
   <li>Limited to 1024 files on Win8</li>
-  <li>(exename)-(hash).pf</li>
+  <li><code class="language-plaintext highlighter-rouge">(exename)-(hash).pf</code></li>
 </ul>
 
         <h4>Location</h4>
@@ -82,7 +82,9 @@ C:\Windows\Prefetch
 <h4>Interpretation</h4>
 <ul class="examples">
     
-    <ul>
+    <p>1) Program Execution</p>
+
+<ul>
   <li>Each .pf will include last time of execution, number of times
   run, and device and file handles used by the program</li>
   <li>Date/Time file by that name and path was first executed
@@ -97,6 +99,13 @@ C:\Windows\Prefetch
       <li>Win8-10 will contain last 8 times of execution</li>
     </ul>
   </li>
+</ul>
+
+<p>2) File/Folder Opening</p>
+
+<ul>
+  <li>Can examine each .pf file to look for file handles recently used</li>
+  <li>Can examine each .pf file to look for device handles recently used</li>
 </ul>
 
     

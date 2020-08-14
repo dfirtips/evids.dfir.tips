@@ -1,0 +1,493 @@
+I"�8<p>Evids is a list of known artifacts to check which can give you an insight of user activities.</p>
+
+<p>This was inspired by the GTFOBins project for Windows. Initial data taken from SANS poster - “Evidence of..”.</p>
+
+<p>List of available categories available <a href="/categories/">here</a></p>
+<div id="bin-search-wrapper">
+    <ul id="bin-search-filters" class="function-list">
+        
+        
+        
+        <li><a href="#+file download" data-title="Any artifact related to downloading a file">File Download</a></li>
+        
+        
+        
+        <li><a href="#+program execution" data-title="Any artifact related to executing a binary">Program Execution</a></li>
+        
+        
+        
+        <li><a href="#+deleted file or file knowledge" data-title="Any artifact that provides information about a file that existed at some point in time on the device">Deleted File or File Knowledge</a></li>
+        
+        
+        
+        <li><a href="#+network activity / physical location" data-title="Any artifact related to network activity">Network Activity / Physical Location</a></li>
+        
+        
+        
+        <li><a href="#+file/folder opening" data-title="Any artifact related to opening a file or a folder">File/Folder Opening</a></li>
+        
+        
+        
+        <li><a href="#+account usage" data-title="Any artifact related to account usage">Account Usage</a></li>
+        
+        
+        
+        <li><a href="#+external device/usb usage" data-title="Any artifact related to usage of an external device such as USB drive">External Device/USB Usage</a></li>
+        
+        
+        
+        <li><a href="#+browser usage" data-title="Any artifact related to browser usage">Browser Usage</a></li>
+        
+    </ul>
+
+    <input id="bin-search" type="text" placeholder="Search among 28 artifacts: &lt;artifact&gt; +&lt;category&gt; ..." />
+</div>
+
+<div id="bin-table-wrapper">
+    <table id="bin-table">
+        <thead>
+            <tr>
+                <th>Artifact</th>
+                <th>Categories</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td><a href="/evids/acmru/" class="bin-name">XP Search – ACMRU</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/acmru/#fileknowledge">Deleted File or File Knowledge</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/ads_zone_identifier/" class="bin-name">ADS Zone.Identifier</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/ads_zone_identifier/#filedownload">File Download</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/amcache_hve/" class="bin-name">Amcache.hve</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/amcache_hve/#programexecution">Program Execution</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/bam_dam/" class="bin-name">BAM/DAM</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/bam_dam/#programexecution">Program Execution</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/browser_artifacts/" class="bin-name">Browser Artifacts</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/browser_artifacts/#filedownload">File Download</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/browser_download_manager/" class="bin-name">Browser Download Manager</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/browser_download_manager/#filedownload">File Download</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/browser_search_terms/" class="bin-name">Browser Search Terms</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/browser_search_terms/#networkactivity">Network Activity / Physical Location</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/cookies/" class="bin-name">Cookies</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/cookies/#networkactivity">Network Activity / Physical Location</a></li>
+    
+    
+    <li><a href="/evids/cookies/#browserusage">Browser Usage</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/email_attachments/" class="bin-name">Email Attachments</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/email_attachments/#filedownload">File Download</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/ie_edge_file/" class="bin-name">IE|Edge file://</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/ie_edge_file/#fileknowledge">Deleted File or File Knowledge</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/jump_lists/" class="bin-name">Jump Lists</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/jump_lists/#programexecution">Program Execution</a></li>
+    
+    
+    <li><a href="/evids/jump_lists/#fileopening">File/Folder Opening</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/last_visited_mru/" class="bin-name">Last-Visited MRU</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/last_visited_mru/#programexecution">Program Execution</a></li>
+    
+    
+    <li><a href="/evids/last_visited_mru/#fileknowledge">Deleted File or File Knowledge</a></li>
+    
+    
+    <li><a href="/evids/last_visited_mru/#fileopening">File/Folder Opening</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/network_history/" class="bin-name">Network History</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/network_history/#networkactivity">Network Activity / Physical Location</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/open_save_mru/" class="bin-name">Open/Save MRU</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/open_save_mru/#filedownload">File Download</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/prefetch/" class="bin-name">Prefetch</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/prefetch/#programexecution">Program Execution</a></li>
+    
+    
+    <li><a href="/evids/prefetch/#fileopening">File/Folder Opening</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/recentapps/" class="bin-name">RecentApps</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/recentapps/#programexecution">Program Execution</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/recycle_bin/" class="bin-name">Recycle Bin (Win7/8/10)</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/recycle_bin/#fileknowledge">Deleted File or File Knowledge</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/recycle_bin_xp/" class="bin-name">Recycle Bin (WinXP)</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/recycle_bin_xp/#fileknowledge">Deleted File or File Knowledge</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/shimcache/" class="bin-name">Shimcache</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/shimcache/#programexecution">Program Execution</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/skype_history/" class="bin-name">Skype History</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/skype_history/#filedownload">File Download</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/srum/" class="bin-name">System Resource Usage Monitor (SRUM)</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/srum/#programexecution">Program Execution</a></li>
+    
+    
+    <li><a href="/evids/srum/#networkactivity">Network Activity / Physical Location</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/thumbcache/" class="bin-name">Thumbcache</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/thumbcache/#fileknowledge">Deleted File or File Knowledge</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/thumbs_db/" class="bin-name">Thumbs.db</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/thumbs_db/#fileknowledge">Deleted File or File Knowledge</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/timezone/" class="bin-name">Timezone</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/timezone/#networkactivity">Network Activity / Physical Location</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/userassist/" class="bin-name">UserAssist</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/userassist/#programexecution">Program Execution</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/windows_10_timeline/" class="bin-name">Windows 10 Timeline</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/windows_10_timeline/#programexecution">Program Execution</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/wlan_event_logs/" class="bin-name">WLAN Event Logs</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/wlan_event_logs/#networkactivity">Network Activity / Physical Location</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+            <tr>
+                <td><a href="/evids/wordwheelquery/" class="bin-name">WordWheelQuery</a></td>
+                <td><ul class="function-list">
+    
+    
+    <li><a href="/evids/wordwheelquery/#fileknowledge">Deleted File or File Knowledge</a></li>
+    
+</ul>
+</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr><td id="search-message" colspan="2">No artifact matches...</td></tr>
+        </tfoot>
+    </table>
+</div>
+
+<script>
+ function filter(query) {
+     var queryArray = query.toLowerCase().trim().split(/ *\+/);
+     var binPattern = queryArray[0];
+     var functionPatterns = queryArray.splice(1);
+
+     // filter rows
+     var noResults = true;
+     document.querySelectorAll('#bin-table tbody tr').forEach(function (row) {
+         var show = true;
+
+         var binName = row.children[0].firstElementChild.innerText.toLowerCase();
+         if (binName.indexOf(binPattern) === -1) {
+             show = false;
+         }
+
+         if (show) {
+             var functionElems = Array.from(row.children[1].firstElementChild.children);
+             functionElems.forEach((item) => {
+                 item.className = '';
+             });
+             functionPatterns.forEach((pattern) => {
+                 // skip empty filters
+                 if (!pattern) {
+                     return;
+                 }
+                 // check against the pattern
+                 var noMatches = true;
+                 functionElems.forEach((item) => {
+                     if (item.innerText.toLowerCase().startsWith(pattern.toLowerCase())) {
+                         item.className = 'match';
+                         noMatches = false;
+                     }
+                 });
+                 // no function satisfies the pattern
+                 if (noMatches) {
+                     show = false;
+                 }
+             });
+         }
+
+         if (show) {
+             row.style.display = '';
+             noResults = false;
+         } else {
+             row.style.display = 'none';
+         }
+     });
+
+     // update the search message visibility
+     var searchMessage = document.getElementById('search-message');
+     searchMessage.style.display = noResults ? 'table-cell' : 'none';
+ }
+
+ function applyFilter() {
+     // filter on load according to the URL
+     var searchBox = document.getElementById('bin-search');
+     var query = decodeURIComponent(location.hash.slice(1));
+     filter(query);
+     if (query) {
+         searchBox.value = query;
+     }
+ }
+
+ function setup() {
+     var searchBox = document.getElementById('bin-search');
+
+     // ensure height during filtering
+     var binTableWrapper = document.getElementById('bin-table-wrapper');
+     binTableWrapper.style.height = binTableWrapper.clientHeight + 'px';
+
+     // handle user input
+     searchBox.addEventListener('input', function () {
+         var query = searchBox.value;
+         history.replaceState(null, null, encodeURI('#' + query));
+         applyFilter();
+     });
+
+     // handle shortcuts
+     addEventListener('keydown', function (event) {
+         // focus search box on valid keydown
+         if (event.key.toLowerCase().match(/^[+a-z]$/) &&
+             !(event.ctrlKey || event.altKey || event.metaKey)) {
+             searchBox.focus();
+             searchBox.parentElement.scrollIntoView();
+         }
+         // clear filter on escape
+         else if (event.key === 'Escape') {
+             location.hash = searchBox.value = '';
+             searchBox.focus();
+             searchBox.parentElement.scrollIntoView();
+         }
+     });
+
+     // handle URL changes
+     window.onhashchange = applyFilter;
+
+     // trigger filter on page load
+     applyFilter();
+ }
+
+ setup();
+</script>
+
+:ET

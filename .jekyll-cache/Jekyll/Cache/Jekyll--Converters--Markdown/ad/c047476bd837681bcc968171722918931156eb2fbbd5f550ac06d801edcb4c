@@ -1,0 +1,16 @@
+I"P<ul>
+  <li>SID can be mapped to user via Registry Analysis</li>
+  <li>Win7/8/10
+    <ul>
+      <li>Files Preceded by $I###### files contain</li>
+    </ul>
+  </li>
+  <li>Original PATH and name</li>
+  <li>Deletion Date/Time
+    <ul>
+      <li>Files Preceded by $R###### files contain</li>
+    </ul>
+  </li>
+  <li>Recovery Data</li>
+</ul>
+:ET

@@ -1,0 +1,11 @@
+I"ß<ul>
+  <li>Increases performance of a system by pre-loading code
+  pages of commonly used applications. Cache Manager
+  monitors all files and directories referenced for each
+  application or process and maps them into a .pf file. Utilized
+  to know an application was executed on a system.</li>
+  <li>Limited to 128 files on XP and Win7</li>
+  <li>Limited to 1024 files on Win8</li>
+  <li><code class="language-plaintext highlighter-rouge">(exename)-(hash).pf</code></li>
+</ul>
+:ET

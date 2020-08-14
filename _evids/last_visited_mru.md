@@ -1,7 +1,7 @@
 ---
 title: Last-Visited MRU
 description: |
-    Tracks the specific executable used by an application to open the files documented in the OpenSaveMRU key. In addition, each value also tracks the directory location for the last file that was accessed by that application. Example: Notepad.exe was last run using the `C:\%USERPROFILE%\Desktop` folder
+    Tracks the specific executable used by an application to open the files documented in the `OpenSaveMRU` key. In addition, each value also tracks the directory location for the last file that was accessed by that application. Example: `Notepad.exe` was last run using the `C:\%USERPROFILE%\Desktop` folder
 location: |
     XP:
     NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\

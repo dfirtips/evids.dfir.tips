@@ -5,7 +5,7 @@
         <title>
             
             
-            template
+            xp search – acmru
             
             |
             
@@ -36,7 +36,7 @@
     
     <a href="/">..</a> /
     
-    Template
+    XP Search – ACMRU
     <div class="github-buttons">
         <a class="github-button" href="https://github.com/dfirtips/evids.dfir.tips" data-icon="octicon-star" data-show-count="true" aria-label="Star dfirtips/evids.dfir.tips on GitHub">Star</a>
     </div>
@@ -46,7 +46,7 @@
 <ul class="function-list">
     
     
-    <li><a href="/evids/template/#programexecution">Program Execution</a></li>
+    <li><a href="/evids/acmru/#fileknowledge">Deleted File or File Knowledge</a></li>
     
 </ul>
 
@@ -58,17 +58,28 @@
 <h4>Description</h4>
 <ul class="examples">
     <li>
-        
+        <p>You can search for a wide range of information through the
+search assistant on a Windows XP machine. The search assistant
+will remember a user’s search terms for filenames, computers,
+or words that are inside a file. This is an example of where
+you can find the “Search History” on the Windows system.</p>
 
         <h4>Location</h4>
-        <pre><code></code></pre>
+        <pre><code>NTUSER.DAT HIVE
+NTUSER.DAT\Software\Microsoft\Search Assistant\ACMru\####
+</code></pre>
     </li>
 </ul>
 
 <h4>Interpretation</h4>
 <ul class="examples">
     
-    
+    <ul>
+  <li>Search the Internet – <strong>#### = 5001</strong></li>
+  <li>All or part of a document name – <strong>#### = 5603</strong></li>
+  <li>A word or phrase in a file – <strong>#### = 5604</strong></li>
+  <li>Printers, Computers and People – <strong>#### = 5647</strong></li>
+</ul>
 
     
 </ul>

@@ -1,0 +1,13 @@
+I"�<p>Determine what wireless networks the system associated with and
+identify network characteristics to find location</p>
+
+<p>Relevant Event IDs</p>
+
+<ul>
+  <li>11000 – Wireless network association started</li>
+  <li>8001 – Successful connection to wireless network</li>
+  <li>8002 – Failed connection to wireless network</li>
+  <li>8003 – Disconnect from wireless network</li>
+  <li>6100 – Network diagnostics (System log)</li>
+</ul>
+:ET

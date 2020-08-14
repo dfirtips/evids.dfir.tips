@@ -1,0 +1,9 @@
+I"�<ul>
+  <li>Amcache.hve – Keys = <strong>Amcache.hve\Root\File{Volume GUID}#######</strong></li>
+  <li>Entry for every executable run, full path information, File’s
+  <code class="language-plaintext highlighter-rouge">$StandardInfo</code> Last Modification Time, and Disk volume the
+  executable was run from</li>
+  <li>First Run Time = Last Modification Time of Key</li>
+  <li>SHA1 hash of executable also contained in the key</li>
+</ul>
+:ET

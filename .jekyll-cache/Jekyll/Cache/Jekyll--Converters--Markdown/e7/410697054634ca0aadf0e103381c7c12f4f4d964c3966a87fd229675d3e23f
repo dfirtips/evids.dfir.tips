@@ -1,0 +1,4 @@
+I"�<p>Starting with XP SP2 when files are downloaded from the “Internet Zone”
+via a browser to a NTFS volume, an alternate data stream is added to the
+file. The alternate data stream is named “Zone.Identifier.”</p>
+:ET

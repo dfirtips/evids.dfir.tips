@@ -1,0 +1,8 @@
+I"E<ul>
+  <li>Time activity is incredibly useful for correlation of activity</li>
+  <li>Internal log files and date/timestamps will be based on the
+  system time zone information</li>
+  <li>You might have other network devices and you will need to
+  correlate information to the time zone information collected here.</li>
+</ul>
+:ET

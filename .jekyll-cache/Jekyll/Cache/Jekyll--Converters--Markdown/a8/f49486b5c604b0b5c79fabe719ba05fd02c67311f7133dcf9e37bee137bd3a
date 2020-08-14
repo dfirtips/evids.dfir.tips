@@ -1,0 +1,27 @@
+I"<p>1) Program Exeuction</p>
+
+<ul>
+  <li>First time of execution of application.
+    <ul>
+      <li>Creation Time = First time item added to the AppID file.</li>
+    </ul>
+  </li>
+  <li>Last time of execution of application w/file open.
+    <ul>
+      <li>Modification Time = Last time item added to the AppID file.</li>
+    </ul>
+  </li>
+  <li>List of Jump List IDs -&gt;
+  <a href="http://www.forensicswiki.org/wiki/List_of_Jump_List_IDs">LINK</a></li>
+</ul>
+
+<p>2) File/Folder Opening</p>
+
+<ul>
+  <li>Using the Structured Storage Viewer, open up one of the
+  AutomaticDestination jumplist files.</li>
+  <li>Each one of these files is a separate LNK file. They are also
+  stored numerically in order from the earliest one (usually 1) to
+  the most recent (largest integer value).</li>
+</ul>
+:ET

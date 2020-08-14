@@ -1,0 +1,18 @@
+I"P<p>Any executable run on the Windows system could be found
+in this key. You can use this key to identify systems that
+specific malware was executed on. In addition, based on the
+interpretation of the time-based data you might be able to
+determine the last time of execution or activity on the system.</p>
+<ul>
+  <li>Windows XP contains at most 96 entries
+    <ul>
+      <li>LastUpdateTime is updated when the files are executed</li>
+    </ul>
+  </li>
+  <li>Windows 7 contains at most 1,024 entries
+    <ul>
+      <li>LastUpdateTime does not exist on Win7 systems</li>
+    </ul>
+  </li>
+</ul>
+:ET

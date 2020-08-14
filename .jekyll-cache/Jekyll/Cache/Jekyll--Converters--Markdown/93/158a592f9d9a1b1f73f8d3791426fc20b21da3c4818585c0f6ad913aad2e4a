@@ -1,0 +1,48 @@
+I"Å<p>An artifcat may belong to one or more of the following categories:</p>
+
+<dl>
+    
+    
+    <dt class="function-name">File Download</dt>
+    <dd><p>Any artifact related to downloading a file</p>
+</dd>
+    
+    
+    <dt class="function-name">Program Execution</dt>
+    <dd><p>Any artifact related to executing a binary</p>
+</dd>
+    
+    
+    <dt class="function-name">Deleted File or File Knowledge</dt>
+    <dd><p>Any artifact that provides information about a file that existed at some point in time on the device</p>
+</dd>
+    
+    
+    <dt class="function-name">Network Activity / Physical Location</dt>
+    <dd><p>Any artifact related to network activity</p>
+</dd>
+    
+    
+    <dt class="function-name">File/Folder Opening</dt>
+    <dd><p>Any artifact related to opening a file or a folder</p>
+</dd>
+    
+    
+    <dt class="function-name">Account Usage</dt>
+    <dd><p>Any artifact related to account usage</p>
+</dd>
+    
+    
+    <dt class="function-name">External Device/USB Usage</dt>
+    <dd><p>Any artifact related to usage of an external device such as USB drive</p>
+</dd>
+    
+    
+    <dt class="function-name">Browser Usage</dt>
+    <dd><p>Any artifact related to browser usage</p>
+</dd>
+    
+ 
+</dl>
+
+:ET

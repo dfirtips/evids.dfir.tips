@@ -1,0 +1,8 @@
+I"ç<p>Files with an ADS Zone.Identifier and contains ZoneID=3 were downloaded
+from the Internet</p>
+<ul>
+  <li>URLZONE_TRUSTED = ZoneID = 2</li>
+  <li>URLZONE_INTERNET = ZoneID = 3</li>
+  <li>URLZONE_UNTRUSTED = ZoneID = 4</li>
+</ul>
+:ET
