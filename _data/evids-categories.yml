@@ -1,0 +1,34 @@
+---
+# this is the rendering order of categories
+
+filedownload:
+  label: File Download
+  description: Any artifact related to downloading a file
+
+programexecution:
+  label: Program Execution
+  description: Any artifact related to executing a binary
+
+fileknowledge:
+  label: Deleted File or File Knowledge
+  description: Any artifact that provides information about a file that existed at some point in time on the device
+
+networkactivity:
+  label: Network Activity / Physical Location
+  description: Any artifact related to network activity
+
+fileopening:
+  label: File/Folder Opening
+  description: Any artifact related to opening a file or a folder
+
+accountusage:
+  label: Account Usage
+  description: Any artifact related to account usage
+
+externaldeviceusage:
+  label: External Device/USB Usage
+  description: Any artifact related to usage of an external device such as USB drive
+
+browserusage:
+  label: Browser Usage
+  description: Any artifact related to browser usage

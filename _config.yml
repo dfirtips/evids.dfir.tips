@@ -1,0 +1,16 @@
+---
+title: Evids
+
+exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md', '/CONTRIBUTING.md']
+
+permalink: pretty
+
+collections:
+  evids:
+    output: true
+
+defaults:
+  - scope:
+      path: '_evids'
+    values:
+      layout: artifact
