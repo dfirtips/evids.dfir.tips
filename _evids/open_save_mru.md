@@ -16,4 +16,5 @@ interpretation:
   - '**.??? (Three letter extension)** – This subkey stores file info from the OpenSave dialog by specific extension'
 evids-categories:
   - filedownload
+  - fileopening
 ---

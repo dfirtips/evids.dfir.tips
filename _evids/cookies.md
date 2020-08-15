@@ -18,18 +18,15 @@ location: |
     Firefox
         
         * XP:
-        %USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\<randomtext>.default\
-        cookies.sqlite
+        %USERPROFILE%\Application Data\Mozilla\Firefox\Profiles\<randomtext>.default\cookies.sqlite
         
         * Win7/8/10:
-        %USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\<randomtext>.default\
-        cookies.sqlite
+        %USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\<randomtext>.default\cookies.sqlite
     
     Chrome
         
         * XP:
-        %USERPROFILE%\Local Settings\ApplicationData\Google\Chrome\User Data\Default\
-        Local Storage
+        %USERPROFILE%\Local Settings\ApplicationData\Google\Chrome\User Data\Default\Local Storage
         
         * Win7/8/10:
         %USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Local Storage

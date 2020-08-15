@@ -30,4 +30,5 @@ interpretation: |
 
 evids-categories:
   - networkactivity
+  - browserusage
 ---

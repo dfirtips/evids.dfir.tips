@@ -1,0 +1,7 @@
+I"d<p>This GUID will be used next to identify the user that
+plugged in the device. The last write time of this key
+also corresponds to the last time the device was
+plugged into the machine by that user. The number
+will be referenced in the user’s personal mountpoints
+key in the <code class="language-plaintext highlighter-rouge">NTUSER.DAT</code> Hive</p>
+:ET

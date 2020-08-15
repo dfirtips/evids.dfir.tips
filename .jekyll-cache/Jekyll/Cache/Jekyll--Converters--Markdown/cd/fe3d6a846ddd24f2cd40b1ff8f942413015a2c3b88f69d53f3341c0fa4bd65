@@ -1,2 +1,0 @@
-I"¦<p>Tracks the specific executable used by an application to open the files documented in the OpenSaveMRU key. In addition, each value also tracks the directory location for the last file that was accessed by that application. Example: <code class="language-plaintext highlighter-rouge">Notepad.exe</code> was last run using the <code class="language-plaintext highlighter-rouge">C:\%USERPROFILE%\Desktop</code> folder</p>
-:ET

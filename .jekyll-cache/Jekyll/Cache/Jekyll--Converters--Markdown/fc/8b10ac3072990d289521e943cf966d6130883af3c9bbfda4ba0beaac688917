@@ -1,0 +1,15 @@
+I" <ul>
+  <li>Event ID Codes (NTLM protocol)
+    <ul>
+      <li>4776: Successful/Failed account authentication</li>
+    </ul>
+  </li>
+  <li>Event ID Codes (Kerberos protocol)
+    <ul>
+      <li>4768: Ticket Granting Ticket was granted (successful logon)</li>
+      <li>4769: Service Ticket requested (access to server resource)</li>
+      <li>4771: Pre-authentication failed (failed logon)</li>
+    </ul>
+  </li>
+</ul>
+:ET

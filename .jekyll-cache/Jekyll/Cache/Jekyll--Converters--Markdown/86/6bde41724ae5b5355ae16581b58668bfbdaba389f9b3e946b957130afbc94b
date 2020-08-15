@@ -1,0 +1,22 @@
+I"Z<ul>
+  <li>Date/Time file of that name was first opened
+    <ul>
+      <li>Creation Date of Shortcut (LNK) File</li>
+    </ul>
+  </li>
+  <li>Date/Time file of that name was last opened
+    <ul>
+      <li>Last Modification Date of Shortcut (LNK) File</li>
+    </ul>
+  </li>
+  <li>LNKTarget File (Internal LNK File Information) Data:
+    <ul>
+      <li>Modified, Access, and Creation times of the target file</li>
+      <li>Volume Information (Name, Type, Serial Number)</li>
+      <li>Network Share information</li>
+      <li>Original Location</li>
+      <li>Name of System</li>
+    </ul>
+  </li>
+</ul>
+:ET

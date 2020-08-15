@@ -30,4 +30,5 @@ interpretation: |
   * Download Start and End Times
 evids-categories:
   - filedownload
+  - browserusage
 ---

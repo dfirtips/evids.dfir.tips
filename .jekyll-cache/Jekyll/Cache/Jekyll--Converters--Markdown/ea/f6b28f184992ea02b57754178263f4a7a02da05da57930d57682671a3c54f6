@@ -1,0 +1,7 @@
+I"u<p>Logon Events can give us very specific information regarding
+the nature of account authorizations on a system if we know
+where to look and how to decipher the data that we find. In
+addition to telling us the date, time, username, hostname, and
+success/failure status of a logon, Logon Events also enables us
+to determine by exactly what means a logon was attempted.</p>
+:ET

@@ -1,0 +1,10 @@
+I"¤<ul>
+  <li>Identify vendor, product, and version of a USB device
+  plugged into a machine</li>
+  <li>Identify a unique USB device plugged into the machine</li>
+  <li>Determine the time a device was plugged into the
+  machine</li>
+  <li>Devices that do not have a unique serial number will
+  have an <code class="language-plaintext highlighter-rouge">&amp;</code> in the second character of the serial number.</li>
+</ul>
+:ET

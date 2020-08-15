@@ -1,0 +1,45 @@
+I"<p>Google Analytics (GA) has developed an extremely
+sophisticated methodology for tracking site visits, user
+activity, and paid search. Since GA is largely free, it has a
+commanding share of the market, estimated at over 80%
+of sites using traffic analysis and over 50% of all sites.</p>
+
+<ul>
+  <li>
+    <p><strong>__utma</strong> – Unique visitors</p>
+
+    <ul>
+      <li>Domain Hash</li>
+      <li>Visitor ID</li>
+      <li>Cookie Creation Time</li>
+      <li>Time of 2nd most recent visit</li>
+      <li>Time of most recent visit</li>
+      <li>Number of visits</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>__utmb</strong> – Session tracking</p>
+
+    <ul>
+      <li>Domain hash</li>
+      <li>Page views in current session</li>
+      <li>Outbound link clicks</li>
+      <li>Time current session started</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>__utmz</strong> – Traffic sources</p>
+
+    <ul>
+      <li>Domain Hash</li>
+      <li>Last Update time</li>
+      <li>Number of visits</li>
+      <li>Number of different types of visits</li>
+      <li>Source used to access site</li>
+      <li>Google Adwords campaign name</li>
+      <li>Access Method (organic, referral, cpc, email, direct)</li>
+      <li>Keyword used to find site (non-SSL only)</li>
+    </ul>
+  </li>
+</ul>
+:ET

@@ -1,0 +1,13 @@
+I"<ul>
+  <li>Win7/8/10 – Interpretation
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">4624</code> – Successful Logon</li>
+      <li><code class="language-plaintext highlighter-rouge">4625</code> – Failed Logon</li>
+      <li><code class="language-plaintext highlighter-rouge">4634</code> | <code class="language-plaintext highlighter-rouge">4647</code> – Successful Logoff</li>
+      <li><code class="language-plaintext highlighter-rouge">4648</code> – Logon using explicit credentials (Runas)</li>
+      <li><code class="language-plaintext highlighter-rouge">4672</code> – Account logon with superuser rights (Administrator)</li>
+      <li><code class="language-plaintext highlighter-rouge">4720</code> – An account was created</li>
+    </ul>
+  </li>
+</ul>
+:ET

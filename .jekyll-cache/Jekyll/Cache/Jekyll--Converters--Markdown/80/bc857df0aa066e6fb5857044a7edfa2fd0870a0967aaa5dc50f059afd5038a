@@ -1,0 +1,17 @@
+I"�<ul>
+  <li><strong>RecentDocs</strong> – Overall key will track the overall order of the
+  last 150 files or folders opened. MRU list will keep track of the
+  temporal order in which each file/folder was opened. The last
+  entry and modification time of this key will be the time and
+  location the last file of a specific extension was opened.</li>
+  <li><strong>.???</strong> – This subkey stores the last files with a specific extension
+  that were opened. MRU list will keep track of the temporal
+  order in which each file was opened. The last entry and
+  modification time of this key will be the time when and location
+  where the last file of a specific extension was opened.</li>
+  <li><strong>Folder</strong> – This subkey stores the last folders that were opened.
+  MRU list will keep track of the temporal order in which each
+  folder was opened. The last entry and modification time of this
+  key will be the time and location of the last folder opened.</li>
+</ul>
+:ET

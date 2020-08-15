@@ -1,0 +1,14 @@
+I"/<ul>
+  <li>Knowing both the Volume Serial
+  Number and the Volume Name,
+  you can correlate the data across
+  <code class="language-plaintext highlighter-rouge">SHORTCUT File (LNK)</code> analysis and the
+  <code class="language-plaintext highlighter-rouge">RECENTDOCs</code> key.</li>
+  <li>The Shortcut File (LNK) contains the
+  Volume Serial Number and Name</li>
+  <li><code class="language-plaintext highlighter-rouge">RecentDocs</code> Registry Key, in most
+  cases, will contain the volume name
+  when the USB device is opened via
+  Explorer</li>
+</ul>
+:ET

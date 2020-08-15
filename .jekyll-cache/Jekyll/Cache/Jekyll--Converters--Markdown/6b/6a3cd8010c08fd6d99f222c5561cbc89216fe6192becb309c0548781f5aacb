@@ -1,0 +1,9 @@
+I""<p>When a Plug and Play driver install is
+attempted, the service will log an ID
+20001 event and provide a Status within
+the event. It is important to note that
+this event will trigger for any Plug and
+Play-capable device, including but not
+limited to USB, Firewire, and PCMCIA
+devices.</p>
+:ET

@@ -1,0 +1,13 @@
+I"�<ul>
+  <li>Win7/8/10 – Interpretation
+    <ul>
+      <li>Event ID 4778 – Session Connected/Reconnected</li>
+      <li>Event ID 4779 – Session Disconnected</li>
+    </ul>
+  </li>
+  <li>Event log provides hostname and IP address of remote
+  machine making the connection</li>
+  <li>On workstations you will often see current console session
+  disconnected (4779) followed by RDP connection (4778)</li>
+</ul>
+:ET

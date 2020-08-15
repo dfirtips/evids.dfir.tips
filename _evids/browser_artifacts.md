@@ -31,4 +31,5 @@ interpretation: |
   to the file on the website that was accessed via a link.
 evids-categories:
   - filedownload
+  - browserusage
 ---

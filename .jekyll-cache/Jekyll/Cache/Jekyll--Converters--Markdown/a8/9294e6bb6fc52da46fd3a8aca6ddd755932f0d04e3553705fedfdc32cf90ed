@@ -1,0 +1,9 @@
+I"<ul>
+  <li>Historical websites viewed in each tab</li>
+  <li>Referring websites</li>
+  <li>Time session ended</li>
+  <li>Modified time of <code class="language-plaintext highlighter-rouge">.dat</code> files in <code class="language-plaintext highlighter-rouge">LastActive</code> folder</li>
+  <li>Time each tab opened (only when crash occurred)</li>
+  <li>Creation time of <code class="language-plaintext highlighter-rouge">.dat</code> files in <code class="language-plaintext highlighter-rouge">Active</code> folder</li>
+</ul>
+:ET

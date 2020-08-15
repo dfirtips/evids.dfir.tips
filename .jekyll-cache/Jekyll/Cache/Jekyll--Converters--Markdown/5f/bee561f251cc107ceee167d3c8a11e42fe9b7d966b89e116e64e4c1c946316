@@ -1,0 +1,16 @@
+I"<ul>
+  <li>The cache is where web page components can be stored
+  locally to speed up subsequent visits</li>
+  <li>Gives the investigator a “snapshot in time” of what a
+  user was looking at online
+    <ul>
+      <li>Identifies websites which were visited</li>
+      <li>Provides the actual files the user viewed on a given
+  website</li>
+      <li>Cached files are tied to a specific local user account</li>
+      <li>Timestamps show when the site was first saved and last
+  viewed</li>
+    </ul>
+  </li>
+</ul>
+:ET

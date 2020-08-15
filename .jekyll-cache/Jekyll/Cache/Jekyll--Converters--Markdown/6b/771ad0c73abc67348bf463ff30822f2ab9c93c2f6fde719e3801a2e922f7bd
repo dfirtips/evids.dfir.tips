@@ -1,0 +1,9 @@
+I"/<ul>
+  <li>All Event IDs except 4697 reference the System Log</li>
+  <li>A large amount of malware and worms in the wild utilize
+  Services</li>
+  <li>Services started on boot illustrate persistence (desirable in
+  malware)</li>
+  <li>Services can crash due to attacks like process injection</li>
+</ul>
+:ET
