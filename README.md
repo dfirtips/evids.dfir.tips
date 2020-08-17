@@ -1,8 +1,5 @@
-# GTFOBins [![Build Status][]][travis]
+# Evids
 
-[Build Status]: https://travis-ci.org/GTFOBins/GTFOBins.github.io.svg?branch=master
-[travis]: https://travis-ci.org/GTFOBins/GTFOBins.github.io
+Evids is a list of known artifacts to check which can give you an insight of user activities.
 
-GTFOBins is a curated list of Unix binaries that can be exploited by an attacker to bypass local security restrictions.
-
-Find the project at https://gtfobins.github.io
+This was inspired by the GTFOBins project for Windows. Initial data taken from SANS poster - “Evidence of..”.
